@@ -2,7 +2,7 @@
 
 local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
 
----------------------------------------------------------------------------------------------------------------------------
+-- Made by Grassful Himself, why are u reading this un-obfuscated
 
 
 
