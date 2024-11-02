@@ -315,16 +315,3 @@ Scanner.Unequipped:Connect(function()
 	LoadedAnimations.equip:Stop()
 	LoadedAnimations.idle:Stop()
 end)
-
-
-
-
-local allowed = loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/tablet%20whitelist.lua"))();
-
-if not table.find(allowed, plr.UserId) then -- checks if the players user id is in the whitelist 
-game.StarterGui:SetCore("SendNotification",{
-    Title = "Woah There Buddy!";
-    Text = "cant use script because no whitelisted";
-    Button1 = "awww :crys:";
-})
-end
