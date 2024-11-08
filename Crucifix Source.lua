@@ -19,8 +19,8 @@ local localPlayerGui = localPlayer:WaitForChild("PlayerGui")
 local localMouse = localPlayer:GetMouse()
 
 local assets = {
-    Repentance = LoadCustomInstance("https://github.com/RegularVynixu/Utilities/blob/main/Doors/Entity%20Spawner/Assets/Repentance.rbxm?raw=true"),
-    Crucifix = LoadCustomInstance("https://github.com/RegularVynixu/Utilities/raw/refs/heads/main/Doors/Item%20Spawner/Assets/Crucifix.rbxm")
+    Repentance = LoadCustomInstance("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/main/Repentance.rbxm"),
+    Crucifix = LoadCustomInstance("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/main/Crucifix.rbxm")
 }
 local moduleScripts = {
 	Main_Game = require(localPlayerGui.MainUI.Initiator.Main_Game),
