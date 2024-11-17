@@ -1,6 +1,6 @@
 local Sourcesdotlua = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
 
-local themodels = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Mischevious%20Shakelight.rbxm?raw=true'
+local themodels = _G.Model or 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Mischevious%20Shakelight.rbxm?raw=true'
 --[[
 Models:
 Curious = https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Curious%20Shakelight.rbxm?raw=true
