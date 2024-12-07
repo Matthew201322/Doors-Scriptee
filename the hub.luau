@@ -12,7 +12,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = true, -- Create a custom folder for your hub/game
-      FileName = "Rayfield Workspace"
+      FileName = "Rayfield Files"
    },
 
    Discord = {
