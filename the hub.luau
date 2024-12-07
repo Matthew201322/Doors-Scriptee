@@ -42,8 +42,6 @@ Rayfield:Notify({
 
 local Tab = Window:CreateTab("Grassful's Stuff", 16860455591) -- Title, Image
 
-Section:Set("Shakelights!")
-
 local Button = Tab:CreateButton({
    Name = "Mischievous Shakelight",
    Callback = function()
