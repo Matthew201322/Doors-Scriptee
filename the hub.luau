@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "G-Hub",
-   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Icon = 12503892396, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Grassful's Hub.",
    LoadingSubtitle = "Beta 0.11",
    Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
@@ -24,8 +24,8 @@ local Window = Rayfield:CreateWindow({
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
       Title = "Beta 0.11",
-      Subtitle = "in beta yk cuz still bugs",
-      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+      Subtitle = "since when key system",
+      Note = "in Alpha 1.05, i think it will be free", -- Use this to tell the user how to get a key
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
@@ -34,10 +34,10 @@ local Window = Rayfield:CreateWindow({
 })
 
 Rayfield:Notify({
-   Title = "Still in beta sooo things might break!",
-   Content = "",
+   Title = "Alert, A##hole.",
+   Content = "things may be bugged out so yea",
    Duration = 6.5,
-   Image = 4483362458,
+   Image = 13499341131,
 })
 
 Rayfield:LoadConfiguration()
