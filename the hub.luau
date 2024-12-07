@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "G-Hub V0.11 (BETA)",
-   Icon = 12503892396, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Icon = 8676495068, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Grassful's Hub",
    LoadingSubtitle = "still some bugs!!",
    Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
@@ -38,6 +38,25 @@ Rayfield:Notify({
    Content = "things may be bugged out so yea",
    Duration = 6.5,
    Image = 13499341131,
+})
+
+local Tab = Window:CreateTab("Grassful's Stuff", 16860455591) -- Title, Image
+
+Section:Set("Shakelights!")
+
+local Button = Tab:CreateButton({
+   Name = "Mischievous Shakelight",
+   Callback = function()
+_G.Model = "https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Mischievous%20Shakelight.rbxm?raw=true"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.luau", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Guiding Shakelight",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.luau", true))()
+   end,
 })
 
 Rayfield:LoadConfiguration()
