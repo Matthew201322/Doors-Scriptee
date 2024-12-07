@@ -7,7 +7,7 @@ local Window = Rayfield:CreateWindow({
    Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
-   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+   DisableBuildWarnings = true, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
 
    ConfigurationSaving = {
       Enabled = true,
@@ -34,8 +34,10 @@ local Window = Rayfield:CreateWindow({
 })
 
 Rayfield:Notify({
-   Title = "Notification Title",
-   Content = "Notification Content",
+   Title = "Still in beta sooo things might break!",
+   Content = "",
    Duration = 6.5,
    Image = 4483362458,
 })
+
+Rayfield:LoadConfiguration()
