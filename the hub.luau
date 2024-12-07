@@ -59,4 +59,36 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-S
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Grassful's Shakelight",
+   Callback = function()
+   _G.Model = "https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Grassful%20Shakelight.rbxm?raw=true"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.luau", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Grassful's Flashlight",
+   Callback = function()
+_G.Model = "https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Grassful%20Flashlight.rbxm?raw=true"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.luau", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Curious Shakelight",
+   Callback = function()
+_G.Model = "https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Curious%20Shakelight.rbxm?raw=true"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.luau", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Wooden Shakelight",
+   Callback = function()
+_G.Model = "https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Wooden%20Shakelight.rbxm?raw=true"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.luau", true))()
+   end,
+})
+
 Rayfield:LoadConfiguration()
