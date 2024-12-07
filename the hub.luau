@@ -33,13 +33,6 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-Rayfield:Notify({
-   Title = "Alert, A##hole.",
-   Content = "things may be bugged out so yea",
-   Duration = 6.5,
-   Image = 13499341131,
-})
-
 local Tab = Window:CreateTab("Grassful's Stuff", 16860455591) -- Title, Image
 
 local Button = Tab:CreateButton({
